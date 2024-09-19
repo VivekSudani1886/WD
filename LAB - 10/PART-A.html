@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PART - A</title>
+
+	<style type="text/css">
+
+		*{
+
+			box-sizing: border-box;
+		}
+
+		.maindiv{
+
+			width: 100%;
+			background-color: skyblue;
+			padding: 10px;
+		}
+
+		.header{
+
+			width: 97%;
+			margin-left: 1%;
+			background-color: purple;
+			color: white;
+		}
+
+		.content{
+
+			width: 97%;
+			margin-left: 1%;
+			background-color: orange;
+			height: 33vh;
+		}
+
+		.entry{
+
+			color: white;
+			width: 60%;
+			height: 10vh;
+			float: left;
+			margin-left: 1%;
+		}
+
+		.sidebar{
+
+			background-color: black;
+			color: white;
+			float: right;
+			width: 30%;
+			height: 13vh;
+			margin-right: 1%;
+		}
+
+		.darshan{
+
+			background-color: blue;
+			width: 97%;
+			margin-left: 1%;
+			color: white;
+		}
+
+		@media (max-width:450px){
+			
+
+			.sidebar{
+
+				float: left;
+				width: 96%;
+				margin-top: 10%;
+				margin-left: 1%;
+			}
+
+			.entry{
+
+				width: 96%;
+				height: 10vh;
+			}
+		}
+	</style>
+</head>
+<body>
+
+	<div class="maindiv">
+
+		<div style="margin-left: 1%;">Page</div>
+		<div class="header">Header</div>
+		<div class="content">
+
+			<div style="padding: 0.5%;">Content</div>
+
+			<div class="entry">
+
+				<div></div>
+				<div style="margin-bottom: 1%; background-color: black; height: 4vh;">Entry</div>
+				<div style="margin-bottom: 1%; background-color: black; height: 4vh;">Entry</div>
+				<div style="margin-bottom: 1%; background-color: black; height: 4vh;">Entry</div>
+			</div>
+			<div class="sidebar">Sidebar</div>
+		</div>
+		<div class="darshan">©Darshan University-Rajkot</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PART - ( B )</title>
+
+    <style type="text/css">
+
+        .maindiv{
+
+            height: 97vh;
+        }
+
+        .header{
+
+            background-color: black;
+            width: 100%;
+            height: 10vh;
+        }
+
+        .image{
+
+            width: 7%;
+            height: 10vh;
+        }
+
+        .image1{
+
+            width: 100%;
+            height: 100%;
+        }
+
+        .sound{
+
+            color: white;
+            position: absolute;
+            top: 1.5%;
+            left: 7.5%;
+        }
+
+        .html1{
+
+            position: absolute;
+            top: 4.7%;
+            left: 39%;
+            color: white;
+            background-color: transparent;
+            border-color: black;
+        }
+
+        .html1:active, :hover {
+
+            border-color: blue;
+        }
+
+        option{
+
+            color: black;
+        }
+
+        .html2{
+
+            position: absolute;
+            top: 4.7%;
+            left: 48.5%;
+            color: white;
+            background-color: transparent;
+            border-color: black;
+        }
+
+        .html2:active, :hover {
+
+            border-color: blue;
+        }
+
+        .button1{
+
+            background-color: rgb(124,188,245);
+            border-radius: 20px;
+            position: absolute;
+            top: 3.7%;
+            left: 61%;
+            width: 150px;
+            height: 35px;
+            color: white;
+            border-color: transparent;
+        }
+
+        .button1:active{
+
+            background-color: red;
+            top: 3.5%;
+        }
+
+        .image2{
+
+            width: 3%;
+            height: 4.5%;
+            position: absolute;
+            top: 4.15%;
+            left: 74%;
+        }
+
+        .image3{
+
+            width: 1.5%;
+            height: 3.7%;
+            position: absolute;
+            top: 4.2%;
+            left: 77.8%;
+        }
+
+        .image4{
+
+            width: 1.5%;
+            height: 3.7%;
+            position: absolute;
+            top: 4.3%;
+            left: 81%;
+        }
+
+        .image5{
+
+            width: 2.5%;
+            height: 5.8%;
+            position: absolute;
+            top: 3.4%;
+            left: 83.5%;
+        }
+
+        .image6{
+
+            width: 2.1%;
+            height: 3.7%;
+            position: absolute;
+            top: 4.3%;
+            left: 87%;
+        }
+
+        .image7{
+
+            width: 2%;
+            height: 3.7%;
+            position: absolute;
+            top: 4.4%;
+            left: 90.6%;
+        }
+
+        .image8{
+
+            width: 2%;
+            height: 3.7%;
+            position: absolute;
+            top: 4.4%;
+            left: 94%;
+        }
+
+        .content{
+
+            background-color: rgba(0, 0, 0, 0.722);
+            width: 100%;
+            height: 88.5vh;
+        }
+
+        .image9{
+
+            width: 91%;
+            height: 20vh;
+            position: absolute;
+            top: 14%;
+            left: 4.5%;
+        }
+
+        h1{
+
+            color: white;
+            font-size: 50px;
+            position: absolute;
+            top: 15%;
+            left: 17%;
+            font-style: oblique;
+        }
+
+        .image10{
+
+            width: 17.815%;
+            height: 200px;
+            position: absolute;
+            top: 42.3%;
+            left: 4.5%;
+        }
+
+        .box1{
+
+            background-color: white;
+            width: 17.8%;
+            height: 29vh;
+            margin-left: 75px;
+            position: absolute;
+            top: 69.3%;
+            right: 77.7%;
+        }
+
+        .button2{
+
+            background-color: rgb(124,188,245);
+            border-radius: 20px;
+            position: absolute;
+            bottom: 1.5%;
+            left: 30%;
+            color: white;
+            border-color: transparent;
+            width: 100px;
+            height: 27px;
+        }
+
+        button:active {
+
+            background-color: red;
+            bottom: 5px;
+        }
+
+        .image11{
+
+            width: 17.8%;
+            height: 200px;
+            position: absolute;
+            top: 42.3%;
+            left: 28.4%;
+        }
+
+        .box2{
+
+            background-color: white;
+            width: 17.8%;
+            height: 29vh;
+            margin-left: 75px;
+            position: absolute;
+            top: 69.3%;
+            left: 23.5%;
+        }
+
+        .button3{
+
+            background-color: rgb(124,188,245);
+            border-radius: 20px;
+            position: absolute;
+            bottom: 1.5%;
+            left: 31.5%;
+            color: white;
+            border-color: transparent;
+            width: 100px;
+            height: 27px;
+        }
+
+        .image12{
+
+            width: 17.8%;
+            height: 200px;
+            position: absolute;
+            top: 42.3%;
+            left: 52.65%;
+        }
+
+        .box3{
+
+            background-color: white;
+            width: 17.85%;
+            height: 29vh;
+            margin-left: 75px;
+            position: absolute;
+            top: 69.3%;
+            left: 47.75%;
+        }
+
+        .button4{
+
+            background-color: rgb(124,188,245);
+            border-radius: 20px;
+            position: absolute;
+            bottom: 1.5%;
+            left: 33%;
+            color: white;
+            border-color: transparent;
+            width: 100px;
+            height: 27px;
+        }
+
+        .image13{
+
+            width: 17.85%;
+            height: 200px;
+            position: absolute;
+            top: 42.3%;
+            left: 77.53%;
+        }
+
+        .box4{
+
+            background-color: white;
+            width: 17.8%;
+            height: 29vh;
+            margin-left: 75px;
+            position: absolute;
+            top: 69.3%;
+            left: 72.66%;
+        }
+
+        .button5{
+
+            background-color: rgb(124,188,245);
+            border-radius: 20px;
+            position: absolute;
+            bottom: 1.5%;
+            left: 34.5%;
+            color: white;
+            border-color: transparent;
+            width: 100px;
+            height: 27px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="maindiv">
+
+        <div class="header">
+
+            <!-- <div class="image"><img src="https://pngimg.com/d/electric_guitar_PNG32.png" class="image1"></div> -->
+            <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW1SoicwYPUPOAcmCHa34qxbmh35bEbIyq_mftvmBkZgJ25n9N" class="image1"></div>
+            <div class="sound"><h2>Sound AMP</h2></div>
+            <div>
+                
+                <select class="html1">
+
+                    <option>HTML Templates</option>
+                    <option>T1</option>
+                    <option>T2</option>
+                    <option>T3</option>
+                </select>
+            </div>
+
+            <div>
+                
+                <select class="html2">
+
+                    <option>More HTML Templates</option>
+                    <option>T1</option>
+                    <option>T2</option>
+                    <option>T3</option>
+                </select>
+            </div>
+
+            <div><a href="https://www.jiocinema.com/"><button class="button1">DOWNLOAD NOW</button></a></div>
+            <div><a href="https://www.youtube.com/" target="_blank"><img src="https://www.freeiconspng.com/uploads/blue-youtube-png-logo-29.png" class="image2"></a></div>
+            <div><a href="https://www.facebook.com/" target="_blank"><img src="https://www.edigitalagency.com.au/wp-content/uploads/Facebook-logo-blue-circle-large-transparent-png.png" class="image3"></a></div>
+            <div><a href="https://www.google.co.in/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Google%2B_blue_%282015-2019%29.png" class="image4"></a></div>
+            <div><a href="https://in.linkedin.com/" target="_blank"><img src="https://static.vecteezy.com/system/resources/previews/018/930/587/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" class="image5"></a></div>
+            <div><a href="https://in.pinterest.com/" target="_blank"><img src="https://pngimg.com/uploads/pinterest/pinterest_PNG39.png" class="image6"></a></div>
+            <div><a href="https://www.instagram.com/" target="_blank"><img src="https://www.nicepng.com/png/full/991-9917902_call-call-call-blue-instagram-logo-transparent.png" class="image7"></a></div>
+            <div><a href="https://twitter.com/?lang=en" target="_blank"><img src="https://www.freeiconspng.com/thumbs/twitter-icon/twitter-icon-download-18.png" class="image8"></a></div>
+
+        </div>
+
+        <div class="content">
+
+            <!-- <div><img src="https://www.datalyne.com/images/event-banner.jpg" class="image9"></div> -->
+            <div><img src="./background.jpeg" class="image9"></div>
+            <div><h1>ALL EVENT</h1></div>
+
+            <div>
+                
+                <img src="https://w0.peakpx.com/wallpaper/847/310/HD-wallpaper-disco-light-united-state-night.jpg" class="image10">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQP6B4uG0czyfLbSCMhL017OXJJDMgAeUhm-k8bnZhMZn3Yv7A4" class="image11">
+                <img src="https://images.squarespace-cdn.com/content/v1/654b1a688b547335e66cff8d/e30c1e5b-67af-4991-88f0-44bd3d352653/DJ+live+perform.png?format=2500w" class="image12">
+                <img src="https://littlesexyblackbook.com/wp-content/uploads/2023/11/4g0xoekt5ns-1536x1023.jpg" class="image13"></div>
+                
+            </div>
+
+            <div class="box1"><br>&nbsp;&nbsp;&nbsp;10/05/2018<h2>&nbsp;&nbsp;Night Laser Show</h2>&nbsp;&nbsp;&nbsp;#hip-hop #rnb #dance<br><br>&nbsp;&nbsp;&nbsp;We are happy to announce this<br>&nbsp;&nbsp;&nbsp;special laser show<br><a href="https://open.spotify.com/"><button class="button2">See More...</button></a></div>
+            <div class="box2"><br>&nbsp;&nbsp;&nbsp;14/05/2018<h2>&nbsp;&nbsp;Live Music</h2>&nbsp;&nbsp;&nbsp;#live #rock #alternative<br><br>&nbsp;&nbsp;&nbsp;Special event for our rock fans!<br>&nbsp;&nbsp;&nbsp;Live music show.<br><a href="https://open.spotify.com/"><button class="button3">See More...</button></a></div>
+            <div class="box3"><br>&nbsp;&nbsp;&nbsp;10/04/2018<h2>&nbsp;&nbsp;DJ - Master Class</h2>&nbsp;&nbsp;&nbsp;#dj #master-class<br><br>&nbsp;&nbsp;&nbsp;DJ WoodSmell will teach you<br>&nbsp;&nbsp;&nbsp;new tricks: please sign up.<br><a href="https://open.spotify.com/"><button class="button4">See More...</button></a></div>
+            <div class="box4"><br>&nbsp;&nbsp;&nbsp;10/04/2018<h2>&nbsp;&nbsp;Best Night Party</h2>&nbsp;&nbsp;&nbsp;#paty #club<br><br>&nbsp;&nbsp;&nbsp;Our traditional event: best hits all<br>&nbsp;&nbsp;&nbsp;night long.<br><a href="https://open.spotify.com/"><button class="button5">See More...</button></a></div>
+    </div>
+</body>
+</html>

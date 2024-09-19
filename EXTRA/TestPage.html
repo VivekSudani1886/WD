@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<form>
+	<table align="center">
+		
+		<h1>Novell Services Login</h1>
+
+		<tr align="center">
+			
+			<td>Username</td>
+			<td>:</td>
+			<td><input type="text" required></td>
+		</tr>
+
+		<tr align="center">
+			
+			<td>Password</td>
+			<td>:</td>
+			<td><input type="password"></td>
+		</tr>
+
+		<tr align="center">
+			
+			<td>Mobile</td>
+			<td>:</td>
+			<td><input type="text" pattern="[0-9]{10}"></td>
+		</tr>
+
+		<tr align="center">
+			
+			<td>Gender</td>
+			<td>:</td>
+			<td align="start"><input type="radio" name="Gender">Male<br><input type="radio" name="Gender">Female</td>
+		</tr>
+
+		<tr align="center">
+			
+			<td>Web Server</td>
+			<td>:</td>
+			<td><select>
+				
+					<option selected disabled>--- Choose a server ---</option>
+					<option>Human Resources</option>
+					<option>Development</option>
+					<option>Accounting</option>
+					<option>Sales</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr align="center">
+			
+			<td>Please specify<br>your role</td>
+			<td>:</td>
+			<td align="start"><input type="radio">Admin<br><input type="radio">Engineer<br><input type="radio">Manager<br><input type="radio">Guest</td>
+		</tr>
+
+		<tr align="center">
+			
+			<td>Single Sign-on<br>to the following</td>
+			<td>:</td>
+			<td align="start"><input type="checkbox">Mail<br><input type="checkbox">Payroll<br><input type="checkbox">Self-Service</td>
+		</tr>
+
+		<tr align="center">
+			
+			<td><input type="submit" value="Login"></td>
+			<td><input type="reset" value="Reset"></td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>

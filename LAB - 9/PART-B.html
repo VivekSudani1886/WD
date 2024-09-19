@@ -1,0 +1,262 @@
+<html>
+
+<head>
+
+    <title>PART - B</title>
+
+    <style type="text/css">
+
+        .main{
+
+            position: absolute;
+            background-color: purple;
+            width: 99%;
+            height: 98%;
+        }
+
+        .ball1{
+
+            position: absolute;
+            height: 50px;
+            width: 50px;
+            border-radius: 30px;
+            animation-name: b1;
+            animation-duration: 4s;
+            background-color: plum;
+            animation-timing-function: linear;
+            /* animation-iteration-count: infinite; */
+            z-index: -1;
+        }
+
+        @keyframes b1{
+
+            0%{
+
+                top: 49%;
+                left: 0%;
+                z-index: 1;
+            }
+            33.3%{
+
+                top: 49%;
+                left: 96.7%;
+            }
+
+            66.6%{
+
+                top: 49%;
+                left: 0%;
+            }
+
+            100%{
+
+                top: 49%;
+                left: 49.5%;
+            }
+        }
+
+        .ball2{
+
+            position: absolute;
+            background-color: white;
+            width: 50px;
+            z-index: -1;
+            height: 50px;
+            border-radius: 30px;
+            animation-name: b2;
+            /* animation-delay: 1.3s; */
+            animation-timing-function: linear;
+            animation-duration: 4s;
+        }
+
+        @keyframes b2{
+
+            0%{
+
+                top: 49%;
+                left: 0%;
+                z-index: 1;
+            }
+            33.3%{
+
+                top: 49%;
+                left: 96.7%;
+            }
+
+            66.6%{
+
+                top: 49%;
+                left: 0%;
+            }
+
+            100%{
+
+                top: 49%;
+                left: 49.5%;
+            }
+        }
+
+        .ball3{
+
+            position: absolute;
+            background-color: red;
+            width: 50px;
+            z-index: -1;
+            height: 50px;
+            border-radius: 30px;
+            animation-name: b3;
+            /* animation-delay: 1.3s; */
+            animation-timing-function: linear;
+            animation-duration: 4s;
+        }
+
+        @keyframes b3{
+
+            0%{
+
+                top: 49%;
+                left: 0%;
+                z-index: 1;
+            }
+            33.3%{
+
+                top: 49%;
+                left: 96.7%;
+            }
+
+            66.6%{
+
+                top: 49%;
+                left: 0%;
+            }
+
+            100%{
+
+                top: 49%;
+                left: 49.5%;
+            }
+        }
+
+        .ball4{
+
+            position: absolute;
+            background-color: red;
+            width: 50px;
+            z-index: -1;
+            height: 50px;
+            border-radius: 30px;
+            animation-name: b4;
+            /* animation-delay: 2s; */
+            animation-timing-function: linear;
+            animation-duration: 4s;
+        }
+
+        @keyframes b4{
+
+            from{
+
+                top: 0%;
+                left: 49.5%;
+                z-index: 1;
+            }
+
+            to{
+
+                top: 49%;
+                left: 96.7%;
+            }
+        }
+
+        .ball5{
+
+            position: absolute;
+            background-color: white;
+            width: 50px;
+            z-index: -1;
+            height: 50px;
+            border-radius: 30px;
+            animation-name: b5;
+            /* animation-delay: 2s; */
+            animation-timing-function: linear;
+            animation-duration: 4s;
+        }
+
+        @keyframes b5{
+
+            from{
+
+                top: 93.3%;
+                left: 49.5%;
+                z-index: 1;
+            }
+
+            to{
+
+                top: 49%;
+                left: 96.7%;
+            }
+        }
+
+        .ball6{
+
+            position: absolute;
+            background-color: white;
+            width: 50px;
+            z-index: -1;
+            height: 50px;
+            border-radius: 30px;
+            animation-name: b6;
+            /* animation-delay: 3s; */
+            animation-timing-function: linear;
+            animation-duration: 4s;
+        }
+
+        @keyframes b6 {
+            
+            from{
+
+                top: 49%;
+                left: 96.7%;
+                z-index: 1;
+            }
+            to{
+
+                top: 49%;
+                left: 49.5%;
+            }
+        }
+
+        .ball7{
+
+            position: absolute;
+            background-color: plum;
+            width: 50px;
+            z-index: -1;
+            height: 50px;
+            border-radius: 30px;
+            animation-name: b7;
+            /* animation-delay: 4s; */
+            animation-timing-function: linear;
+            animation-duration: 4s;
+        }
+
+        @keyframes b1 {
+            
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="ball1"></div>
+        <div class="ball2"></div>
+        <div class="ball3"></div>
+        <div class="ball4"></div>
+        <div class="ball5"></div>
+        <div class="ball6"></div>
+        <div class="ball7"></div>
+    </div>
+</body>
+</html>

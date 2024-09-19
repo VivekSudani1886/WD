@@ -1,0 +1,56 @@
+#logo {
+    float: left;
+    width: 50%;
+    height: 20vh;
+}
+
+#button {
+    float: right;
+    width: 50%;
+    height: 20vh;
+}
+
+#Left {
+    float: left;
+    text-align: center;
+    width: 20%;
+    height: 40vh;
+    background-color: red;
+}
+
+#Right {
+    float: left;
+    height: 40vh;
+}
+
+.row {
+    height: 35vh;
+    width: 100%;
+}
+
+.box {
+    width: 100px;
+    height: 60px;
+    padding: 10px;
+    float: left;
+}
+.Photos {
+    /* float: left; */
+    height: 75px;
+    width: 100px;
+}
+
+a {
+    height: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.Third {
+    width: 90%;
+    float: left;
+    background-color: blue;
+    text-align: center;
+    height: 6vh;
+    font-size: larger;
+}

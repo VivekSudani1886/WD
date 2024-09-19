@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    float: left;
+    background-color: #444444;
+}
+.header{
+    width: 100%;
+    float: left;
+    background-color: black;
+}
+.guitar{
+    width: 7%;
+    float: left;
+}
+.sound{
+    width: 13%;
+    float: left;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: 900;
+    padding-top: 30px;
+}
+.navigation{
+    padding-top: 20px;
+    width: 75%;
+    float: right;
+}
+.templetelinks{
+    padding: 10px 10px 10px 120px;
+    width: 60%;
+    float: left;
+}
+.logoimg{
+    padding-top: 10px;
+    width: 40%;
+    float: left;
+}
+#Templete option{
+    background-color: aqua;
+}
+#Templete{
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-left: 20px;
+}
+.Download a{
+    text-decoration: none;
+    color: white;
+}
+.Download{
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 800;
+    background: transparent;
+    color: white;
+    background: #76bcf7;
+    border: none;
+    border-radius: 200px;
+    padding: 10px;
+}
+.logo{
+    margin-left: 20px;
+    width: 9%;
+    float: right;
+}
+.content{
+    margin-top: 20px;
+    width: 100%;
+    float: left;
+    min-height: auto;
+}
+.event{
+    background-image: url(./background.jpeg);
+    margin-left: 10%;
+    width: 80%;
+    background-size: cover;
+    height: 150px;
+    background-repeat: no-repeat;
+}
+.eventtxt{
+    padding: 50px;
+    float: right;
+    color: white;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-style: italic;
+}
+.cards-container{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    width: 80%;
+    float: left;
+    height: 450px;
+}
+.cards{
+    width: 22%;
+    float: left;
+    height: 100%;
+}
+#card2{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+#card3{
+    margin-right: 4%;
+}
+.image1{
+    width: 100%;
+    height: 55%;
+    background-image: url(./images1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image2{
+    width: 100%;
+    height: 55%;
+    background-image: url(./images2.jpeeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image3{
+    width: 100%;
+    height: 55%;
+    background-image: url(./images3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image4{
+    width: 100%;
+    height: 55%;
+    background-image: url(./images4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.details{
+    width: 100%;
+    height: 45%;
+    background-color: white;
+    padding: 10px;
+}
+.see-more a{
+    text-decoration: none;
+    color: white;
+}
+.see-more{
+    background: transparent;
+    color: white;
+    background: #76bcf7;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 200px;
+}

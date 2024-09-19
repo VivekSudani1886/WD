@@ -1,0 +1,107 @@
+<html>
+
+<head>
+
+    <title>PART - C</title>
+
+    <style type="text/css">
+
+        .main{
+
+            position: absolute;
+            background-color: red;
+            width: 99%;
+            height: 98%;
+        }
+
+        .ball{
+
+            background-color: blue;
+            position: absolute;
+            width: 10%;
+            height: 10%;
+            border-radius: 40px;
+            animation-name: screensaver;
+            animation-iteration-count: infinite;
+            animation-duration: 10s;
+            animation-timing-function: linear;
+        }
+
+        @keyframes screensaver{
+
+            0%{
+
+                top: 0px;
+                left: 0px;
+            }
+            
+            10%{
+
+                top: 655px;
+                left: 400px;
+            }
+
+            20%{
+
+                top: 0px;
+                left: 600px;
+            }
+
+            30%{
+
+                top: 655px;
+                left: 800px;
+            }
+
+            40%{
+
+                top: 0px;
+                left: 1000px;
+            }
+
+            50%{
+
+                top: 655px;
+                left: 1200px;
+            }
+
+            60%{
+
+                top: 0px;
+                left: 1369px;
+            }
+
+            70%{
+
+                top: 655px;
+                left: 1000px;
+            }
+
+            80%{
+
+                top: 0px;
+                left: 700px;
+            }
+
+            90%{
+
+                top: 655px;
+                left: 400px;
+            }
+
+            100%{
+
+                top: 0px;
+                left: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,202 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.back {
+    width: 90%;
+    height: 100vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(white,pink,white);
+}
+
+.left {
+    width: 42%;
+    height: 85%;
+
+    float: left;
+    background-color: rgb(255, 231, 253);
+    border-right: 0px;
+}
+
+.image1{
+    width: 100%;
+    height: 70vh;
+}
+.image1 img,.image2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.image2 {
+    width: 17%;
+    height: 17%;
+}
+
+.right {
+    width: 40%;
+    height: 85%;
+    background-color: white;
+    float: right;
+    padding: 0% 0% 0% 2%;
+    border-left: 0px;
+
+}
+
+#sp1 {
+    color: darkblue;
+    font-size: 19px;
+}
+
+#i2 {
+    width: 15%;
+    margin-left: 1%;
+}
+
+#sp2 {
+    font-size: 13px;
+}
+
+button {
+    border: 1px solid rgb(228, 228, 228);
+}
+
+.b1 {
+    width: 30%;
+    height: 3vh;
+    background-color: white;
+    align-content: center;
+}
+
+
+.b2,
+.b3 {
+    width: 20%;
+    height: 3vh;
+    border-radius: 20px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.color {
+    float: left;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 4%;
+}
+
+#c1 { background-color: cyan; margin-left: 0px; }
+#c2 { background-color: darkblue; }
+#c3 { background-color: gray; }
+#c4 { background-color: whitesmoke; }
+
+.b4 {
+    width: 30%;
+    height: 4vh;
+    background-color: white;
+    border: 0px;
+    border-bottom: 1px solid grey;
+}
+
+.content h6 {
+    margin-left: 4%;
+    font-size: 13px;
+}
+
+.r1 {
+    margin-left: 4%;
+    margin-top: 2%;
+    width: 85%;
+    height: 10vh;
+    padding: 1%;
+    z-index: 1;
+}
+.r1 img{
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+.r1 p{
+    width: 80%;
+    margin-left: 3%;
+    float: left;
+}
+
+
+.center {
+    position: absolute;
+    top: 81%;
+    left: 20%;
+    border: 1.5px solid gray;
+    width: 65%;
+    height: 11vh;
+    background-color: whitesmoke;
+    z-index: 10;
+}
+.center img {
+    width: 4.5vw;
+    height: 8vh;
+    float: left;
+    position: relative;
+    top: 8%;
+    left: 2%;
+}
+
+.center h4 {
+    float: left;
+    position: relative;
+    top: 0%;
+    left: 5%;
+    border: 1% solid black;
+}
+
+.center #dis {
+    float: left;
+    position: relative;
+    top: 47%;
+    left: -7%;
+    opacity: 35%; 
+    font-size: 15px; 
+}
+
+.center h5 {
+    position: relative;
+    top: 2%;
+    left: 5%;
+}
+
+.plus {
+    width: 4%;
+    height: 40%;
+    /* padding: 0.5%; */
+    text-align: center;
+    position: relative;
+    top: -15%;
+    left: 50%;
+    border: 1px solid gray;
+}
+
+#J {
+    position: absolute;
+    top: 30%;
+    left: 67%;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.center button {
+    width: 20%;
+    height: 5vh;
+    background-color: blue;
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 25%;
+    left: 75%;
+}

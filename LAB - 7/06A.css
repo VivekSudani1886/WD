@@ -1,0 +1,28 @@
+.first{
+    background-color: aqua;
+
+}
+.Header{
+    background-color: rebeccapurple; 
+    height:30px;
+}
+.Content{
+    background-color: orange;
+    height: 30vh;
+}
+.Entry{
+    
+    float: left;
+    width: 47%;
+    height: 200px;
+}
+.Sidebar{
+    
+    float: right;
+    width: 47%;
+    height: 200px;
+}
+.DU{
+    background-color: blue;
+    height: 40px;
+}
